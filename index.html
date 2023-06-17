@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-content">
+          <div class="navbar-logo">
+            <img src="./images/logo.png" alt="logo" />
+          </div>
+          <div class="navbar-seach">
+            <form class="search-form js-search-form">
+              <input
+              type="search"
+              name="search"
+              id=""
+              class="search-input js-search-input"
+              placeholder="Search Any Movie"
+            />
+            </form>
+            <i class="fa fa-search js-search-icon" aria-hidden="false"></i>
+          </div>
+          <div class="navbar-avatar">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Intro -->
+    <section class="intro">
+      <h2>Welcome to my Movie Search Site</h2>
+      <p>Get to know about the movie</p>
+    </section>
+    <!-- Loader -->
+    <div class="loading-indicator">
+      <div class="loading spinner hidden">
+        <svg width="64px" height="48px">
+            <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="back"></polyline>
+          <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="front"></polyline>
+        </svg>
+      </div>
+    </div>
+    <!-- search items -->
+    <section class="home">
+      <div class="container">
+        <div class="home-content">
+        <!-- js data come into place here :) -->
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Developed by Dennis Rotich</p>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
